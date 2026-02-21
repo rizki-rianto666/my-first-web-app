@@ -2,7 +2,7 @@ class TaskManager {
     constructor() {
         this.tasks = [];
         this.currentUser = null;
-        this.apiUrl = 'https://dapper-klepon-099019.netlify.app';
+        this.apiUrl = 'https://backend-task-manager-tugas-cloud.vercel.app';
         this.initEventListeners();
     }
 
