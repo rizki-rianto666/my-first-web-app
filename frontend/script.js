@@ -2,7 +2,7 @@ class TaskManager {
     constructor() {
         this.tasks = [];
         this.currentUser = null;
-        this.apiUrl = 'https://backend-task-manager-tugas-cloud.vercel.app/';
+        this.apiUrl = 'https://backend-task-manager-tugas-cloud.vercel.app';
         this.initEventListeners();
     }
 
